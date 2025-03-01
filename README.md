@@ -1,22 +1,22 @@
 # Treatment-Recommender-system
 
-#Abstract
+# Abstract
 
 This project aims to build a Treatment recommendation system using a dataset containing information about various symptoms and their corresponding diagnoses and medications. The system will analyze the user's input symptoms and recommend the diseases and appropriate medications based on the dataset.
 
-#Task:
+# Task:
 
 I devided this project into two part.
 
-##part 1:
+## part 1:
 
 I use cosine_similarity where it takes patient symtoms and predict the top 5 diseases that can patient have.
 
-##part 2:
+## part 2:
 
 In this part the primary task is to develop a machine learning model that can accurately predict the disease based on a given set of symptoms. The model will be trained on a dataset containing symptom information and corresponding disease diagnoses. Once the disease is predicted, the system will fetch relevant information such as precautions, exercises, descriptions, medications, and diets specific to that disease from other datasets.
 
-#Key Processes:
+# Key Processes:
 
 Data Preprocessing: I check for missing values. Then i encoded categorical features using one-hot encoding.
 cosine Similarity: Find similarity Matrix using cosine Similarity and recommend the most probable disease a patient can have.
